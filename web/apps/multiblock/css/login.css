@@ -1,0 +1,177 @@
+
+
+form {
+
+border-radius: 4px 4px 5px 5px;
+width:400px;	
+position:absolute;
+left:50%;
+margin-left:-200px;
+top:50%;
+margin-top:-200px;
+padding:0;					
+background-color:white;				
+-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px;
+-moz-box-shadow: rgba(0,0,0,0.2) 0px 0px 5px;
+-o-box-shadow: rgba(0,0,0,0.2) 0px 0px 5px;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px;
+}			
+
+.contenido{
+padding:30px;
+border-left: 1px solid #DEDEDE;
+
+}
+.inputBox input{
+width:203px;
+border:1px solid #CCC !important;				
+padding-right:0;
+padding-left:0;
+}
+label{
+width:100px;
+display:inline-block;
+}
+.inputBox{
+
+margin-top:5px;
+}
+.error{
+width:auto;
+color:red;
+position:absolute;
+}
+
+.header{
+
+border-radius: 4px 4px 0 0;
+
+padding:0;
+margin:0;
+
+font-weight:bold;
+padding:5px 5px 5px 5px;
+font-size:20px;
+color: #e3e3e3;
+
+}
+
+.titulo{
+font-weight:bold;
+}
+button:hover{
+box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 3px;
+}
+button.activo{ 
+background: green !important;
+color:white;
+}
+button{
+display: inline-block;
+margin: 0 .7em 0 0;
+padding: 5px 10px 6px 10px;
+border: 1px solid #DEDEDE;
+border-right: 1px solid #BBB;
+border-bottom: 1px solid #BFBFBF;
+background-color: white;
+background: -webkit-gradient(linear, left top, left bottom, from(white), to(#E9E9E9));
+background: -webkit-linear-gradient(top, white, #E9E9E9);
+background: -moz-linear-gradient(top, white, #E9E9E9);
+background: -ms-linear-gradient(top, white, #E9E9E9);
+background: -o-linear-gradient(top, white, #E9E9E9);
+font-family: "Lucida Grande", Tahoma, Arial, sans-serif;
+font-size: 100%;
+line-height: 130%;
+color: #464646;
+cursor: pointer;
+text-decoration: none;
+-webkit-border-radius: 11px;
+-moz-border-radius: 11px;
+border-radius: 11px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px;
+-moz-box-shadow: rgba(0,0,0,0.1) 0px 1px 1px;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px;
+}
+
+.ui-widget-content{
+border-radius: 11px;
+-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px;
+-moz-box-shadow: rgba(0,0,0,0.1) 0px 1px 1px;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px;
+border-color:red;
+}
+.wijmo-wijtooltip-pointer{
+border-radius: 0;
+
+}
+
+.body{
+/* background:white url('../images/backgrounds/1350436861_colorful_wood_background.jpg') !important; */
+background-color:black;
+background-size:100% 100%;
+background-attachment: fixed;
+}
+
+form{
+
+background-repeat: no-repeat;
+background-size: 450px 280px !important;
+
+
+height: 277px;
+width:454px;
+
+}
+
+form{				
+transition:opacity .5s;
+-moz-transition:opacity .5s; /* Firefox 4 */
+-webkit-transition:opacity .5s; /* Safari and Chrome */
+-o-transition:opacity .5s; /* Opera */
+
+}
+form:hover{
+opacity:1;
+}
+
+.header{
+color:black !important;  
+text-align: center;
+border: none;
+background: none;
+margin-top: 30px;
+left: 192px;
+position: absolute;
+box-shadow:none;
+}
+
+.contenido{
+border: none;
+left: 98px;
+position: absolute;
+top: 43px;
+}
+
+.inputbox input{
+text-align: center;
+width: 203px;
+border-radius:6px;
+}
+input{
+text-align:center;
+}
+
+.btnEntrar{
+margin-top:3px;
+opacity:.3;
+margin-left: 13px;
+margin-top: 4px;
+}
+
+.btnEntrar:hover{
+opacity:1;
+
+}

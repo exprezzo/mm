@@ -6,7 +6,7 @@
 	if ($a==0){
 		echo "El sistema está en mantenimiento, disculpe los inconvenientes.";		
 	}else{
-		header("Location: /sistema/index");
+		header("Location: /portal/index");
 	}
 
 ?>

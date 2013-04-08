@@ -13,6 +13,8 @@ $APP_CONFIG=array(
 	'tema'=>'black-tie'
 );
 
-$_DEFAULT_CONTROLLER='sistema';
+$_DEFAULT_CONTROLLER='portal';
 $_DEFAULT_ACTION='index';
+
+$_LOGIN_REDIRECT_PATH= '/sistema/index';
 ?>

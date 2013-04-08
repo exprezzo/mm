@@ -7,7 +7,7 @@ if ( !isset($_SESSION['isLoged'])|| $_SESSION['isLoged']!=true ){
 <html lang="us">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title><?php echo NOMBRE_APL; ?></title>
+	<title><?php echo $APP_CONFIG['nombre']; ?></title>
 	<!--jQuery References-->
 	<!--link href="/js/jquery-ui-1.9.2.custom/css/flick/jquery-ui-1.9.2.custom.css" rel="stylesheet"-->	
 	<script src="/web/libs/jquery-1.8.3.js"></script>
@@ -20,8 +20,8 @@ if ( !isset($_SESSION['isLoged'])|| $_SESSION['isLoged']!=true ){
 		global $_TEMAS;
 		//$rutaTema=$_TEMAS[TEMA];
 		
-		$rutaTema=getUrlTema('artic');
-		$rutaTema=getUrlTema(TEMA);
+		// $rutaTema=getUrlTema('artic');
+		 $rutaTema=getUrlTema( $APP_CONFIG['tema'] );
 		
 		$rutaMod='/web/'.$_PETICION->modulo.'/css/mods/black-tie/black-tie.css';
 	?>

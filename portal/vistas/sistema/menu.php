@@ -12,8 +12,8 @@
 	width: 163px;
 }
 .menu_ico{
-	width:32px;
-	height:32px;
+	width:64px;
+	height:64px;
 }
 .menu_item a{
 	text-decoration:none;
@@ -21,8 +21,8 @@
 
 .menu_item label{
 	cursor: pointer;
-	top: 18px;
-	left: 51px;
+	top: 41px;
+	left: 75px;
 	position: absolute;
 }
 .menu_item{
@@ -33,8 +33,9 @@
 	padding: 10px;
 }
 </style>
+
 <div class="menu_page_header">
-<h1 style="display:inline-block;"><?php echo NOMBRE_APL; ?></h1>
+<h1 style="display:inline-block;"><?php echo $APP_CONFIG['nombre']; ?></h1>
 <h3 style="display:block;font-size:14px;">Menu principal</h3>
 </div>
 <ul>
